@@ -1,0 +1,13 @@
+option list /mnt/project/reprof//data/fasta_multi/highres_reduced_0_test.fasta
+option set /tmp/reprof/standard_sec.set
+option format fann
+option out /tmp/reprof//mnt/project/reprof/runs/sec/b/142///test.set
+output dssp sec_3state 1
+input fasta aa_composition 1
+input fasta length_4state 1
+input fasta distanceN 1
+input fasta distanceC 1
+input blastPsiMat normalized 19
+input fasta in_sequence_bit 19
+input blastPsiMat info 19
+input blastPsiMat weight 19

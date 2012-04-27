@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47CC8E1815165DF90079C381 /* doublefann.c in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8DFF15165DF90079C381 /* doublefann.c */; };
+		47CC8E1915165DF90079C381 /* fann.c in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8E0015165DF90079C381 /* fann.c */; };
+		47CC8E1A15165DF90079C381 /* fann_cascade.c in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8E0115165DF90079C381 /* fann_cascade.c */; };
+		47CC8E1B15165DF90079C381 /* fann_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8E0215165DF90079C381 /* fann_error.c */; };
+		47CC8E1C15165DF90079C381 /* fann_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8E0315165DF90079C381 /* fann_io.c */; };
+		47CC8E1D15165DF90079C381 /* fann_train.c in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8E0415165DF90079C381 /* fann_train.c */; };
+		47CC8E1E15165DF90079C381 /* fann_train_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8E0515165DF90079C381 /* fann_train_data.c */; };
+		47CC8E1F15165DF90079C381 /* fixedfann.c in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8E0615165DF90079C381 /* fixedfann.c */; };
+		47CC8E2015165DF90079C381 /* floatfann.c in Sources */ = {isa = PBXBuildFile; fileRef = 47CC8E0715165DF90079C381 /* floatfann.c */; };
+		47CC8E2115165DF90079C381 /* compat_time.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E0A15165DF90079C381 /* compat_time.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2215165DF90079C381 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E0B15165DF90079C381 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2315165DF90079C381 /* doublefann.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E0C15165DF90079C381 /* doublefann.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2415165DF90079C381 /* fann.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E0D15165DF90079C381 /* fann.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2515165DF90079C381 /* fann_activation.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E0E15165DF90079C381 /* fann_activation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2615165DF90079C381 /* fann_cascade.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E0F15165DF90079C381 /* fann_cascade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2715165DF90079C381 /* fann_cpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E1015165DF90079C381 /* fann_cpp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2815165DF90079C381 /* fann_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E1115165DF90079C381 /* fann_data.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2915165DF90079C381 /* fann_error.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E1215165DF90079C381 /* fann_error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2A15165DF90079C381 /* fann_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E1315165DF90079C381 /* fann_internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2B15165DF90079C381 /* fann_io.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E1415165DF90079C381 /* fann_io.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2C15165DF90079C381 /* fann_train.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E1515165DF90079C381 /* fann_train.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2D15165DF90079C381 /* fixedfann.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E1615165DF90079C381 /* fixedfann.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CC8E2E15165DF90079C381 /* floatfann.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC8E1715165DF90079C381 /* floatfann.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47CC8DE715165DBB0079C381 /* libfannorg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfannorg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CC8DFE15165DF90079C381 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		47CC8DFF15165DF90079C381 /* doublefann.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = doublefann.c; sourceTree = "<group>"; };
+		47CC8E0015165DF90079C381 /* fann.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann.c; sourceTree = "<group>"; };
+		47CC8E0115165DF90079C381 /* fann_cascade.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_cascade.c; sourceTree = "<group>"; };
+		47CC8E0215165DF90079C381 /* fann_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_error.c; sourceTree = "<group>"; };
+		47CC8E0315165DF90079C381 /* fann_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_io.c; sourceTree = "<group>"; };
+		47CC8E0415165DF90079C381 /* fann_train.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_train.c; sourceTree = "<group>"; };
+		47CC8E0515165DF90079C381 /* fann_train_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fann_train_data.c; sourceTree = "<group>"; };
+		47CC8E0615165DF90079C381 /* fixedfann.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fixedfann.c; sourceTree = "<group>"; };
+		47CC8E0715165DF90079C381 /* floatfann.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = floatfann.c; sourceTree = "<group>"; };
+		47CC8E0915165DF90079C381 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		47CC8E0A15165DF90079C381 /* compat_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compat_time.h; sourceTree = "<group>"; };
+		47CC8E0B15165DF90079C381 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		47CC8E0C15165DF90079C381 /* doublefann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doublefann.h; sourceTree = "<group>"; };
+		47CC8E0D15165DF90079C381 /* fann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann.h; sourceTree = "<group>"; };
+		47CC8E0E15165DF90079C381 /* fann_activation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_activation.h; sourceTree = "<group>"; };
+		47CC8E0F15165DF90079C381 /* fann_cascade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_cascade.h; sourceTree = "<group>"; };
+		47CC8E1015165DF90079C381 /* fann_cpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_cpp.h; sourceTree = "<group>"; };
+		47CC8E1115165DF90079C381 /* fann_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_data.h; sourceTree = "<group>"; };
+		47CC8E1215165DF90079C381 /* fann_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_error.h; sourceTree = "<group>"; };
+		47CC8E1315165DF90079C381 /* fann_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_internal.h; sourceTree = "<group>"; };
+		47CC8E1415165DF90079C381 /* fann_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_io.h; sourceTree = "<group>"; };
+		47CC8E1515165DF90079C381 /* fann_train.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fann_train.h; sourceTree = "<group>"; };
+		47CC8E1615165DF90079C381 /* fixedfann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixedfann.h; sourceTree = "<group>"; };
+		47CC8E1715165DF90079C381 /* floatfann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floatfann.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47CC8DE415165DBB0079C381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47CC8DDC15165DBB0079C381 = {
+			isa = PBXGroup;
+			children = (
+				47CC8DFD15165DF90079C381 /* src */,
+				47CC8DE815165DBB0079C381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47CC8DE815165DBB0079C381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47CC8DE715165DBB0079C381 /* libfannorg.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47CC8DFD15165DF90079C381 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				47CC8DFE15165DF90079C381 /* CMakeLists.txt */,
+				47CC8DFF15165DF90079C381 /* doublefann.c */,
+				47CC8E0015165DF90079C381 /* fann.c */,
+				47CC8E0115165DF90079C381 /* fann_cascade.c */,
+				47CC8E0215165DF90079C381 /* fann_error.c */,
+				47CC8E0315165DF90079C381 /* fann_io.c */,
+				47CC8E0415165DF90079C381 /* fann_train.c */,
+				47CC8E0515165DF90079C381 /* fann_train_data.c */,
+				47CC8E0615165DF90079C381 /* fixedfann.c */,
+				47CC8E0715165DF90079C381 /* floatfann.c */,
+				47CC8E0815165DF90079C381 /* include */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		47CC8E0815165DF90079C381 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				47CC8E0915165DF90079C381 /* CMakeLists.txt */,
+				47CC8E0A15165DF90079C381 /* compat_time.h */,
+				47CC8E0B15165DF90079C381 /* config.h */,
+				47CC8E0C15165DF90079C381 /* doublefann.h */,
+				47CC8E0D15165DF90079C381 /* fann.h */,
+				47CC8E0E15165DF90079C381 /* fann_activation.h */,
+				47CC8E0F15165DF90079C381 /* fann_cascade.h */,
+				47CC8E1015165DF90079C381 /* fann_cpp.h */,
+				47CC8E1115165DF90079C381 /* fann_data.h */,
+				47CC8E1215165DF90079C381 /* fann_error.h */,
+				47CC8E1315165DF90079C381 /* fann_internal.h */,
+				47CC8E1415165DF90079C381 /* fann_io.h */,
+				47CC8E1515165DF90079C381 /* fann_train.h */,
+				47CC8E1615165DF90079C381 /* fixedfann.h */,
+				47CC8E1715165DF90079C381 /* floatfann.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47CC8DE515165DBB0079C381 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CC8E2115165DF90079C381 /* compat_time.h in Headers */,
+				47CC8E2215165DF90079C381 /* config.h in Headers */,
+				47CC8E2315165DF90079C381 /* doublefann.h in Headers */,
+				47CC8E2415165DF90079C381 /* fann.h in Headers */,
+				47CC8E2515165DF90079C381 /* fann_activation.h in Headers */,
+				47CC8E2615165DF90079C381 /* fann_cascade.h in Headers */,
+				47CC8E2715165DF90079C381 /* fann_cpp.h in Headers */,
+				47CC8E2815165DF90079C381 /* fann_data.h in Headers */,
+				47CC8E2915165DF90079C381 /* fann_error.h in Headers */,
+				47CC8E2A15165DF90079C381 /* fann_internal.h in Headers */,
+				47CC8E2B15165DF90079C381 /* fann_io.h in Headers */,
+				47CC8E2C15165DF90079C381 /* fann_train.h in Headers */,
+				47CC8E2D15165DF90079C381 /* fixedfann.h in Headers */,
+				47CC8E2E15165DF90079C381 /* floatfann.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47CC8DE615165DBB0079C381 /* fannorg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CC8DEB15165DBB0079C381 /* Build configuration list for PBXNativeTarget "fannorg" */;
+			buildPhases = (
+				47CC8DE315165DBB0079C381 /* Sources */,
+				47CC8DE415165DBB0079C381 /* Frameworks */,
+				47CC8DE515165DBB0079C381 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fannorg;
+			productName = fannorg;
+			productReference = 47CC8DE715165DBB0079C381 /* libfannorg.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47CC8DDE15165DBB0079C381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "-";
+			};
+			buildConfigurationList = 47CC8DE115165DBB0079C381 /* Build configuration list for PBXProject "fannorg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47CC8DDC15165DBB0079C381;
+			productRefGroup = 47CC8DE815165DBB0079C381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47CC8DE615165DBB0079C381 /* fannorg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47CC8DE315165DBB0079C381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CC8E2015165DF90079C381 /* floatfann.c in Sources */,
+				47CC8E1815165DF90079C381 /* doublefann.c in Sources */,
+				47CC8E1915165DF90079C381 /* fann.c in Sources */,
+				47CC8E1B15165DF90079C381 /* fann_error.c in Sources */,
+				47CC8E1C15165DF90079C381 /* fann_io.c in Sources */,
+				47CC8E1D15165DF90079C381 /* fann_train.c in Sources */,
+				47CC8E1E15165DF90079C381 /* fann_train_data.c in Sources */,
+				47CC8E1F15165DF90079C381 /* fixedfann.c in Sources */,
+				47CC8E1A15165DF90079C381 /* fann_cascade.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47CC8DE915165DBB0079C381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47CC8DEA15165DBB0079C381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47CC8DEC15165DBB0079C381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_UNROLL_LOOPS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47CC8DED15165DBB0079C381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_UNROLL_LOOPS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47CC8DE115165DBB0079C381 /* Build configuration list for PBXProject "fannorg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CC8DE915165DBB0079C381 /* Debug */,
+				47CC8DEA15165DBB0079C381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CC8DEB15165DBB0079C381 /* Build configuration list for PBXNativeTarget "fannorg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CC8DEC15165DBB0079C381 /* Debug */,
+				47CC8DED15165DBB0079C381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47CC8DDE15165DBB0079C381 /* Project object */;
+}
