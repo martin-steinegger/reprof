@@ -108,10 +108,10 @@ void help(){
     printf("    Secondary structure and solvent accessibility prediction using neural networsk\n");
     printf("    \n");
     printf("USAGE:\n");
-    printf("    \tmadprof --fasta [query.fasta] --out [path to dir] --model [path to model]\n");
+    printf("    \tmadprof --input [query.fasta|pismat] --out [path to dir] --model [path to model]\n");
     printf("    \n");
     printf("OPTIONS:\n");
-    printf("    \t--fasta\n");
+    printf("    \t--input\n");
     printf("    \tInput (single) FASTA file\n");
     printf("    \t--out\n");
     printf("    \tEither an output file or a directory. If not provided or a directory, the suffix of the input filename is replaced to create an output filename\n");
@@ -120,7 +120,7 @@ void help(){
     
     printf("EXAMPLES:\n");
     printf("\n");
-    printf("    \tmadprof -fasta query.fasta -out out_dir/\n");
+    printf("    \tmadprof --input query.fasta -output out_dir/\n");
 }
 
 int main (int argc, const char * argv[])
