@@ -23,7 +23,7 @@
 #include <string.h>
 #include <time.h>
 #include <math.h>
-#include <tmmintrin.h>
+#include <xmmintrin.h>
 
 #include "config.h"
 #include "fann.h"

@@ -1,7 +1,7 @@
 # the compiler to use.
 CC=gcc
 # options I'll pass to the compiler.
-CFLAGS=-x c -m64 -std=gnu99 -Wno-trigraphs -Wno-char-subscripts -O4 -Wall -funroll-loops -msse2 -msse3 -msse4 -msse4.1 -msse4.2 -lm  -fvisibility=hidden -I. -Iinclude
+CFLAGS=-x c -m64 -std=gnu99 -Wno-trigraphs -Wno-char-subscripts -O4 -Wall -funroll-loops -msse2 -msse3 -lm -fvisibility=hidden -I. -Iinclude
 
 OBJECTS=floatfann.o doublefann.o fann.o fann_error.o fann_io.o fann_train.o fann_train_data.o fixedfann.o fann_cascade.o
 
