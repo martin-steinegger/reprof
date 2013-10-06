@@ -1,0 +1,7 @@
+# Reprof is a secondary structure prediction tool #
+
+Sec. Structure prediciton based on a ANN. 
+The lib FANN is used for the NN. 
+This project usesed a patched version of the FANN network.
+Impoved performance with SSE. 
+
